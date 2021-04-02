@@ -7,7 +7,8 @@ function App() {
     width: '250px',
     fontSize: '1.75rem',
     fontWeight: '500',
-    textAlign: 'left'
+    textAlign: 'left',
+    marginRight: '0.7rem'
   };
 
   return (
