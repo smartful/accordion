@@ -6,7 +6,11 @@ function QuestionsContainer({ questions }) {
   return (
     <div>
       {questions.map(question => (
-        <QuestionCard question={question.question} answer={question.answer} />
+        <QuestionCard
+          key={question.id}
+          question={question.question}
+          answer={question.answer}
+        />
       ))}
     </div>
   );

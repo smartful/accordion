@@ -23,7 +23,9 @@ function QuestionCard({ question, answer }) {
     color: '#b4345c',
     width: '2rem',
     height: '2rem',
-    fontSize: '1.5rem'
+    fontSize: '1.5rem',
+    cursor: 'pointer',
+    outline: 'none',
   };
 
   return (
